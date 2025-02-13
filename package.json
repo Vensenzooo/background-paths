@@ -68,7 +68,7 @@
     "tailwindcss-animate": "^1.0.7",
     "typescript": "latest",
     "vaul": "^0.9.6",
-    "vercel": "^32.3.0",
+    "vercel": "^28.18.5",
     "zod": "^3.24.1"
   },
   "devDependencies": {
