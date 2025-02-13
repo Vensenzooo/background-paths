@@ -1,0 +1,26 @@
+api/
+├── config/
+│   └── database.php
+├── controllers/
+│   ├── AuthController.php
+│   ├── ChatController.php
+│   ├── FriendController.php
+│   └── UserController.php
+├── middleware/
+│   ├── AuthMiddleware.php
+│   └── CorsMiddleware.php
+├── models/
+│   ├── Chat.php
+│   ├── Friend.php
+│   ├── Message.php
+│   └── User.php
+├── routes/
+│   ├── auth.php
+│   ├── chats.php
+│   ├── friends.php
+│   └── users.php
+├── utils/
+│   ├── JwtUtil.php
+│   └── ResponseUtil.php
+└── index.php
+

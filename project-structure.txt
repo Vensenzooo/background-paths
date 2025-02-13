@@ -1,0 +1,58 @@
+chat-app/
+├── app/
+│   ├── api/
+│   │   ├── auth/
+│   │   │   └── [...nextauth]/
+│   │   │       └── route.ts
+│   │   ├── messages/
+│   │   │   └── route.ts
+│   │   └── users/
+│   │       └── route.ts
+│   ├── chat/
+│   │   ├── [id]/
+│   │   │   └── page.tsx
+│   │   └── page.tsx
+│   ├── dashboard/
+│   │   └── page.tsx
+│   ├── login/
+│   │   └── page.tsx
+│   ├── profile/
+│   │   └── page.tsx
+│   ├── register/
+│   │   └── page.tsx
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── ui/
+│   │   ├── button.tsx
+│   │   ├── input.tsx
+│   │   ├── label.tsx
+│   │   └── ... (other UI components)
+│   ├── ChatList.tsx
+│   ├── ChatWindow.tsx
+│   ├── Dashboard.tsx
+│   ├── FriendsList.tsx
+│   ├── Login.tsx
+│   ├── MessageInput.tsx
+│   ├── Navbar.tsx
+│   ├── Profile.tsx
+│   └── Register.tsx
+├── lib/
+│   ├── auth.ts
+│   ├── db.ts
+│   └── utils.ts
+├── public/
+│   ├── images/
+│   └── fonts/
+├── styles/
+│   └── globals.css
+├── types/
+│   └── index.ts
+├── .env.local
+├── .gitignore
+├── next.config.js
+├── package.json
+├── README.md
+├── tailwind.config.js
+└── tsconfig.json
+
